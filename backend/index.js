@@ -21,8 +21,7 @@ app.use(cors({
         if (!origin) return callback(null, true);
 
         const allowedOrigins = [
-            "http://localhost:5173",
-            "http://localhost:5174",
+            "https://advanced-voice-assistant-1.onrender.com",
            
         ];
 
